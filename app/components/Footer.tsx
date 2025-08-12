@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="border-t border-sky-800 mt-8 pt-8 text-center">
           <p className="text-sky-200">
-            &copy; {currentYear} <a href="https://github.com/cyrus07424" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">cyrus</a>. All rights reserved.
+            &copy; {currentYear} <a href="https://github.com/cyrus07424" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">OpenAgricultureDiary</a>. All rights reserved.
           </p>
           <p className="text-sky-300 text-sm mt-2">
             OpenAgricultureDiary は MIT ライセンスの下で公開されています。
