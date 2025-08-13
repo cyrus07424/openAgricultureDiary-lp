@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { GoogleTagManagerHead, GoogleTagManagerBody } from "./components/GoogleTagManager";
 
 export const metadata: Metadata = {
   title: "OpenAgricultureDiary - オープンソース農業管理ツール",
@@ -19,9 +20,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || '';
+
   return (
     <html lang="ja">
+      <head>
+        <GoogleTagManagerHead gtmId={gtmId} />
+      </head>
       <body className="antialiased font-sans flex flex-col min-h-screen">
+        <GoogleTagManagerBody gtmId={gtmId} />
         <Header />
         <main className="flex-grow pt-16">
           {children}
