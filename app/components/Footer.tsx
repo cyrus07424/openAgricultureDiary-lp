@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-xl font-bold">OpenAgricultureDiary</span>
             </div>
             <p className="text-sky-200 leading-relaxed">
-              オープンソースの農業管理ツール。<br />
+              オープンソースの農業日誌管理ツール。<br />
               あなたの農作業をもっと効率的に。
             </p>
           </div>

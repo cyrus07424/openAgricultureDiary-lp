@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "OpenAgricultureDiary - オープンソース農業管理ツール",
-  description: "誰でも使いやすい農業管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。"
+  title: "OpenAgricultureDiary - オープンソース農業日誌管理ツール",
+  description: "誰でも使いやすい農業日誌管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。"
 };
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl text-sky-700 mb-8 leading-relaxed">
               誰でも使いやすい<br className="md:hidden" />
-              <span className="font-semibold text-green-700">オープンソース農業管理ツール</span>
+              <span className="font-semibold text-green-700">オープンソース農業日誌管理ツール</span>
             </p>
             <p className="text-lg text-sky-600 mb-12 max-w-2xl mx-auto leading-relaxed">
               作物の栽培記録、圃場管理、収穫管理を効率的に行い、<br />

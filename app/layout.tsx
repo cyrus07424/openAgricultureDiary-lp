@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "./components/GoogleTagManager";
 
 export const metadata: Metadata = {
-  title: "OpenAgricultureDiary - オープンソース農業管理ツール",
-  description: "誰でも使いやすい農業管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。",
-  keywords: "農業, 農業管理, 栽培記録, 圃場管理, 収穫管理, オープンソース",
+  title: "OpenAgricultureDiary - オープンソース農業日誌管理ツール",
+  description: "誰でも使いやすい農業日誌管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。",
+  keywords: "農業, 農業日誌, 栽培記録, 圃場管理, 収穫管理, オープンソース",
   openGraph: {
-    title: "OpenAgricultureDiary - オープンソース農業管理ツール",
-    description: "誰でも使いやすい農業管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。",
+    title: "OpenAgricultureDiary - オープンソース農業日誌管理ツール",
+    description: "誰でも使いやすい農業日誌管理ツール。作物の栽培記録、圃場管理、収穫管理を効率的に行えるオープンソースアプリケーションです。",
     type: "website",
   },
 };
