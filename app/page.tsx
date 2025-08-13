@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://app.openagriculturediary.com';
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://example.com';
 
   return (
     <div className="min-h-screen">

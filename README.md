@@ -50,7 +50,7 @@ npm run dev
 
 ```bash
 # .env.local
-NEXT_PUBLIC_APP_URL=https://your-app-domain.com
+NEXT_PUBLIC_APP_URL=https://example.com
 ```
 
 ## 利用可能なスクリプト
