@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "./components/GoogleTagManager";
+import GoogleAdSense from "./components/GoogleAdSense";
 
 export const metadata: Metadata = {
   title: "OpenAgricultureDiary - オープンソース農業日誌管理ツール",
@@ -21,6 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || '';
+  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
   return (
     <html lang="ja">
@@ -29,6 +31,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased font-sans flex flex-col min-h-screen">
         <GoogleTagManagerBody gtmId={gtmId} />
+        {adsenseClientId && <GoogleAdSense clientId={adsenseClientId} />}
         <Header />
         <main className="flex-grow pt-16">
           {children}
