@@ -54,7 +54,7 @@ export default function FAQ() {
         },
         {
           question: "システム要件はありますか？",
-          answer: "現代的なWebブラウザがあれば利用できます。自己ホスティングの場合は、Node.js環境とデータベースが必要です。詳細な要件はGitHubリポジトリをご確認ください。"
+          answer: "現代的なWebブラウザがあれば利用できます。自己ホスティングの場合は、Java 17環境とPostgreSQLデータベースが必要です。詳細な要件はGitHubリポジトリをご確認ください。"
         },
         {
           question: "カスタマイズは可能ですか？",
